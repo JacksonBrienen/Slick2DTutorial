@@ -2,8 +2,8 @@
     <div>
         <h1>Slick2D Tutorial</h1>
         <p>Simple Slick2D Tutorials in Eclipse<br><br>
-        Small note: These tutorials are for beginner-level programmers and game developers that have an entry-level understanding of object-oriented programming in java. Slick2D has been out of development for around 9 years, if you are looking for professional-level game development in java I would highly recommend <a href="https://www.lwjgl.org/" target="_blank">LWJGL</a> or <a href="https://libgdx.com/" target="_blank">LibGDX</a>.<br><br>
-        <a href="https://slick.ninjacave.com/" target="_blank">Slick2D Download Link</a><br>
+        Small note: These tutorials are for beginner-level programmers and game developers that have an entry-level understanding of object-oriented programming in java. Slick2D has been out of development for around 9 years, if you are looking for professional-level game development in java I would highly recommend <a href="https://www.lwjgl.org/">LWJGL</a> or <a href="https://libgdx.com/">LibGDX</a>.<br><br>
+        <a href="https://slick.ninjacave.com/">Slick2D Download Link</a><br>
         <a href="#individual-downloads">Individual Project Downloads</a></p>
     </div>
     <div>
@@ -45,7 +45,7 @@
             <img src="images/step16.png" style="max-width: 650px;">
             <li>For our projects, we will use Packages to organize our code. Right-click on your "src" folder hover over "new" and then click on "Package"</li>
             <img src="images/step17.png" style="max-width: 650px;">
-            <li>Here I use standard Package naming conventions, but you can use any naming you wish. Packages are very similar to directories, instead of using a <b>/</b> or <b>\</b> we use a <b>.</b> to separate different "packages" or folders. For what we are doing here you could simply use your project name as your root package, so for me, it would be "example", or if you were making a pong game your root package could simply be "pong". But for now, pick whatever name you would like, then click "Finish"</li>
+            <li>Here I use standard Package naming conventions, but you can use any naming you wish. Packages are very similar to folders, instead of using a <b>/</b> or <b>\</b> we use a <b>.</b> to separate different "packages" or folders. For what we are doing here you could simply use your project name as your root package, so for me, it would be "example", or if you were making a pong game your root package could simply be "pong". But for now, pick whatever name you would like, then click "Finish"</li>
             <img src="images/step18.png" style="max-width: 650px;">
             <li>Now right click on our root package that we just created, hover over "new", then click "Class"</li>
             <img src="images/step19.png" style="max-width: 650px;">
@@ -57,7 +57,7 @@
             <img src="images/step21.png" style="max-width: 650px;">
             <li>This one we will title "Launcher", we also want to check to include a main method, this is where we will Launch our game from, finally, click "Finish"</li>
             <img src="images/step22.png" style="max-width: 650px;">
-            <li>We are almost to writing code but before we get there we need to import one more piece from Slick2D, to do this we need to start by creating a new directory, right-click on your project, hover over new, and select "Folder"</li>
+            <li>We are almost to writing code but before we get there we need to import one more piece from Slick2D, to do this we need to start by creating a new folder, right-click on your project, hover over new, and select "Folder"</li>
             <img src="images/step23.png" style="max-width: 650px;">
             <li>Name the Folder "native", the naming is very important! Then click "Finish"</li>
             <img src="images/step24.png" style="max-width: 650px;">
@@ -65,14 +65,15 @@
             <img src="images/step25.png" style="max-width: 650px;">
             <li>Next, we need our launcher for our game, in here we need to do a few things. Notice the first three lines, the first line is getting a String that is the path to our "native" folder, the next two lines load those libraries which are needed for Slick2D to function properly. Next, we make an AppGameContainer, notice the 4 arguments, the first one is our Game, the next two are the width and height of our game, the last one is if we want our game fullscreen or not, in this case, we put false so that it is windowed. Finally we "start" our display, this creates our window and calls our games init method.</li>
             <img src="images/step26.png" style="max-width: 650px;">
-            <li>Finally, we run our program, and we get to see our window. If you followed everything properly you should get a display like this. If you are having problems, you can refer to the project directory under the name "Example".</li>
+            <li>Finally, we run our program, and we get to see our window. If you followed everything properly you should get a display like this. If you are having problems, you can refer to the project folder under the name "Example".</li>
             <img src="images/step27.png" style="max-width: 650px;">
         </ol>
     </div>
     <div id="individual-downloads">
         <h1>Individual File Downloads</h1>
         <ul>
-            <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/Example/" target="_blank">Example</a></li>
+            <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/Example/">Example</a></li>
+            <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/SpaceShooter/">SpaceShooter</a></li>
         </ul>
     </div>
 </body>
