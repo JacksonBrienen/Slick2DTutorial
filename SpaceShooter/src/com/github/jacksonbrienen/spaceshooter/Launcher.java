@@ -1,4 +1,4 @@
-package spaceshooter;
+package com.github.jacksonbrienen.spaceshooter;
 
 import java.io.File;
 import org.lwjgl.opengl.Display;

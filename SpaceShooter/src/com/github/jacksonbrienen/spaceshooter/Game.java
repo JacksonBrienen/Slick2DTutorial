@@ -1,4 +1,4 @@
-package spaceshooter;
+package com.github.jacksonbrienen.spaceshooter;
 
 import java.util.*;
 import org.newdawn.slick.*;

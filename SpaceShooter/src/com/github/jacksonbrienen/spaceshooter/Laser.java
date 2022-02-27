@@ -1,4 +1,4 @@
-package spaceshooter;
+package com.github.jacksonbrienen.spaceshooter;
 
 import org.newdawn.slick.*;
 import org.newdawn.slick.geom.*;
