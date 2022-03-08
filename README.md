@@ -53,8 +53,6 @@
             <img src="images/step20.png" style="max-width: 650px;">
             <li>Lets also create one more Class</li>
             <img src="images/step21.png" style="max-width: 650px;">
-            <li>Lets also create one more Class</li>
-            <img src="images/step21.png" style="max-width: 650px;">
             <li>This one we will title "Launcher", we also want to check to include a main method, this is where we will Launch our game from, finally, click "Finish"</li>
             <img src="images/step22.png" style="max-width: 650px;">
             <li>We are almost to writing code but before we get there we need to import one more piece from Slick2D, to do this we need to start by creating a new folder, right-click on your project, hover over new, and select "Folder"</li>
