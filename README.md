@@ -61,6 +61,10 @@
             <img src="images/step23.png" style="max-width: 650px;">
             <li>Name the Folder "native", the naming is very important! Then click "Finish"</li>
             <img src="images/step24.png" style="max-width: 650px;">
+            <li>With the folder now added, navigate back to your Slick folder, and select all files with a ".dll", ".so", and ".dylib" extenstions, or the files shown below. And drag these files into the "native" folder.</li>
+            <img src="images/step_00.png" style="max-width: 650px;">
+            <li>Once you have done this it should resemble something like this:</li>
+            <img src="images/step_01.png" style="max-width: 650px">
             <li>Now we get to write our code, we won't go too in-depth, that's for later, but we will write a very simple game class. Notice how we extend BasicGame, this is needed for us to get and use the methods init, render, and update. Along with that we also get the constructor, this constructor gets an argument of a String which will be the title of our window.</li>
             <img src="images/step25.png" style="max-width: 650px;">
             <li>Next, we need our launcher for our game, in here we need to do a few things. Notice the first three lines, the first line is getting a String that is the path to our "native" folder, the next two lines load those libraries which are needed for Slick2D to function properly. Next, we make an AppGameContainer, notice the 4 arguments, the first one is our Game, the next two are the width and height of our game, the last one is if we want our game fullscreen or not, in this case, we put false so that it is windowed. Finally we "start" our display, this creates our window and calls our games init method.</li>
@@ -73,6 +77,7 @@
         <h1>Individual File Downloads</h1>
         <ul>
             <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/Example/">Example</a></li>
+            <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/BouncingBox/">BouncingBox</a></li>
             <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/SpaceShooter/">SpaceShooter</a></li>
         </ul>
     </div>
