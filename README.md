@@ -76,6 +76,7 @@
         <ul>
             <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/Example/">Example</a></li>
             <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/BouncingBox/">BouncingBox</a></li>
+            <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/InputAndCollisionsStarter/">InputAndCollisionsStarter</a></li>
             <li><a href="https://kinolien.github.io/gitzip/?download=/JacksonBrienen/Slick2DTutorial/tree/main/SpaceShooter/">SpaceShooter</a></li>
         </ul>
     </div>
